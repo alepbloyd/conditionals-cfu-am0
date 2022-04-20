@@ -61,21 +61,33 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# checks if 4 is less than 9, and prints the result
+# evaluates to true
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# sets the variable 'books' equal to 3
+# checks if 4 is less than the number stored in the variable 'books' (3)
+# evaluates to false
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# sets the variable 'friends' equal to 6
+# sets the variable 'siblings' equal to 2
+# checks if the number stored in friends (6) is greater than the number stored in siblings (2)
+# evaluates to true
 
 attendees = 9;
 meals = 8;
 puts attendees != meals
 # YOU DO: Explain.
-
+# sets the variable 'attendees' to 9
+# sets the variable 'meals' to 8
+# checks if the number stored in the variable 'attendees' does not equal the number stored in the variable 'meals'
+# evaluates to true
 
 #-------------------
 # PART 3: Logical Operators
